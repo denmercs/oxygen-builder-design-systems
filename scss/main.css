@@ -1,0 +1,323 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(4.4rem, calc(4.4rem + ((1vw - 0.32rem) * 1.0417)), 5.4rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: clamp(3.4rem, calc(3.4rem + ((1vw - 0.32rem) * 1.0417)), 4.4rem);
+  font-weight: 900;
+}
+
+h3 {
+  font-size: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 1.0417)), 3.4rem);
+  font-weight: 800;
+}
+
+h4 {
+  font-size: clamp(2.2rem, calc(2.2rem + ((1vw - 0.32rem) * 1.0417)), 2.8rem);
+  font-weight: 800;
+}
+
+h5 {
+  font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.32rem) * 1.0417)), 2.2rem);
+  font-weight: 700;
+}
+
+h6 {
+  font-size: clamp(1.6rem, calc(1.2rem + ((1vw - 0.32rem) * 1.0417)), 1.8rem);
+  font-weight: 700;
+}
+
+p {
+  font-size: clamp(1rem, calc(1.2rem + ((1vw - 0.32rem) * 1.0417)), 1.4rem);
+}
+
+.m-zero {
+  margin: 0 !important;
+}
+
+.p-zero {
+  margin: 0 !important;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+
+.p-auto {
+  margin: auto !important;
+}
+
+.m-xs {
+  margin: 1.8rem !important;
+}
+
+.p-xs {
+  margin: 1.8rem !important;
+}
+
+.m-sm {
+  margin: 2.7rem !important;
+}
+
+.p-sm {
+  margin: 2.7rem !important;
+}
+
+.m-md {
+  margin: 4.05rem !important;
+}
+
+.p-md {
+  margin: 4.05rem !important;
+}
+
+.m-lg {
+  margin: 6.075rem !important;
+}
+
+.p-lg {
+  margin: 6.075rem !important;
+}
+
+.m-xl {
+  margin: 9.1125rem !important;
+}
+
+.p-xl {
+  margin: 9.1125rem !important;
+}
+
+.m-top-zero {
+  margin-top: 0 !important;
+}
+
+.m-bottom-zero {
+  margin-bottom: 0 !important;
+}
+
+.m-left-zero {
+  margin-left: 0 !important;
+}
+
+.m-right-zero {
+  margin-right: 0 !important;
+}
+
+.p-top-zero {
+  padding-top: 0 !important;
+}
+
+.p-bottom-zero {
+  padding-bottom: 0 !important;
+}
+
+.p-left-zero {
+  padding-left: 0 !important;
+}
+
+.p-right-zero {
+  padding-right: 0 !important;
+}
+
+.m-top-auto {
+  margin-top: auto !important;
+}
+
+.m-bottom-auto {
+  margin-bottom: auto !important;
+}
+
+.m-left-auto {
+  margin-left: auto !important;
+}
+
+.m-right-auto {
+  margin-right: auto !important;
+}
+
+.p-top-auto {
+  padding-top: auto !important;
+}
+
+.p-bottom-auto {
+  padding-bottom: auto !important;
+}
+
+.p-left-auto {
+  padding-left: auto !important;
+}
+
+.p-right-auto {
+  padding-right: auto !important;
+}
+
+.m-top-xs {
+  margin-top: 1.8rem !important;
+}
+
+.m-bottom-xs {
+  margin-bottom: 1.8rem !important;
+}
+
+.m-left-xs {
+  margin-left: 1.8rem !important;
+}
+
+.m-right-xs {
+  margin-right: 1.8rem !important;
+}
+
+.p-top-xs {
+  padding-top: 1.8rem !important;
+}
+
+.p-bottom-xs {
+  padding-bottom: 1.8rem !important;
+}
+
+.p-left-xs {
+  padding-left: 1.8rem !important;
+}
+
+.p-right-xs {
+  padding-right: 1.8rem !important;
+}
+
+.m-top-sm {
+  margin-top: 2.7rem !important;
+}
+
+.m-bottom-sm {
+  margin-bottom: 2.7rem !important;
+}
+
+.m-left-sm {
+  margin-left: 2.7rem !important;
+}
+
+.m-right-sm {
+  margin-right: 2.7rem !important;
+}
+
+.p-top-sm {
+  padding-top: 2.7rem !important;
+}
+
+.p-bottom-sm {
+  padding-bottom: 2.7rem !important;
+}
+
+.p-left-sm {
+  padding-left: 2.7rem !important;
+}
+
+.p-right-sm {
+  padding-right: 2.7rem !important;
+}
+
+.m-top-md {
+  margin-top: 4.05rem !important;
+}
+
+.m-bottom-md {
+  margin-bottom: 4.05rem !important;
+}
+
+.m-left-md {
+  margin-left: 4.05rem !important;
+}
+
+.m-right-md {
+  margin-right: 4.05rem !important;
+}
+
+.p-top-md {
+  padding-top: 4.05rem !important;
+}
+
+.p-bottom-md {
+  padding-bottom: 4.05rem !important;
+}
+
+.p-left-md {
+  padding-left: 4.05rem !important;
+}
+
+.p-right-md {
+  padding-right: 4.05rem !important;
+}
+
+.m-top-lg {
+  margin-top: 6.075rem !important;
+}
+
+.m-bottom-lg {
+  margin-bottom: 6.075rem !important;
+}
+
+.m-left-lg {
+  margin-left: 6.075rem !important;
+}
+
+.m-right-lg {
+  margin-right: 6.075rem !important;
+}
+
+.p-top-lg {
+  padding-top: 6.075rem !important;
+}
+
+.p-bottom-lg {
+  padding-bottom: 6.075rem !important;
+}
+
+.p-left-lg {
+  padding-left: 6.075rem !important;
+}
+
+.p-right-lg {
+  padding-right: 6.075rem !important;
+}
+
+.m-top-xl {
+  margin-top: 9.1125rem !important;
+}
+
+.m-bottom-xl {
+  margin-bottom: 9.1125rem !important;
+}
+
+.m-left-xl {
+  margin-left: 9.1125rem !important;
+}
+
+.m-right-xl {
+  margin-right: 9.1125rem !important;
+}
+
+.p-top-xl {
+  padding-top: 9.1125rem !important;
+}
+
+.p-bottom-xl {
+  padding-bottom: 9.1125rem !important;
+}
+
+.p-left-xl {
+  padding-left: 9.1125rem !important;
+}
+
+.p-right-xl {
+  padding-right: 9.1125rem !important;
+}
+/*# sourceMappingURL=main.css.map */

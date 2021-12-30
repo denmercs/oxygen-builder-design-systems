@@ -1,0 +1,35 @@
+$directions: "top" "bottom" "left" "right";
+
+$sizes: (
+  "zero": 0,
+  "auto": auto,
+  "xs": $size-extra-small,
+  "sm": $size-small,
+  "md": $size-medium,
+  "lg": $size-large,
+  "xl": $size-extra-large,
+);
+
+@each $name, $size in $sizes {
+  .m-#{$name} {
+    margin: $size !important;
+  }
+
+  .p-#{$name} {
+    margin: $size !important;
+  }
+}
+
+@each $name, $size in $sizes {
+  @each $dir in $directions {
+    .m-#{$dir}-#{$name} {
+      margin-#{$dir}: $size !important;
+    }
+  }
+
+  @each $dir in $directions {
+    .p-#{$dir}-#{$name} {
+      padding-#{$dir}: $size !important;
+    }
+  }
+}

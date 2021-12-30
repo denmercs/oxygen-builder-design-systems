@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(4.4rem, calc(4.4rem + ((1vw - 0.32rem) * 1.0417)), 5.4rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: clamp(3.4rem, calc(3.4rem + ((1vw - 0.32rem) * 1.0417)), 4.4rem);
+  font-weight: 900;
+}
+
+h3 {
+  font-size: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 1.0417)), 3.4rem);
+  font-weight: 800;
+}
+
+h4 {
+  font-size: clamp(2.2rem, calc(2.2rem + ((1vw - 0.32rem) * 1.0417)), 2.8rem);
+  font-weight: 800;
+}
+
+h5 {
+  font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.32rem) * 1.0417)), 2.2rem);
+  font-weight: 700;
+}
+
+h6 {
+  font-size: clamp(1.6rem, calc(1.2rem + ((1vw - 0.32rem) * 1.0417)), 1.8rem);
+  font-weight: 700;
+}
+
+p {
+  font-size: clamp(1rem, calc(1.2rem + ((1vw - 0.32rem) * 1.0417)), 1.4rem);
+}
